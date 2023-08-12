@@ -1,6 +1,11 @@
 {
   "version": 2,
   "routes": [
-      {"src": "/(.*)","dest": "https://hub.docker.com/$1"}
-  ]
+    {
+      "src": "/(.*)",
+      "dest": "https://hub.docker.com/$1",
+      "continue": true
+    }
+  ],
+  "regions": ["hkg1"]
 }
