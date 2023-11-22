@@ -3,7 +3,7 @@
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "https://scholar.google.com/$1",
+      "dest": "https://hub.docker.com/$1",
       "continue": true
     }
   ],
