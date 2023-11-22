@@ -3,7 +3,7 @@
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "https://www.wikipedia.org/$1",
+      "dest": "https://hub.docker.com/$1",
       "continue": true
     }
   ],
