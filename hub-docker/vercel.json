@@ -3,7 +3,7 @@
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "https://zh.wikipedia.org/wiki/Wiki/Wikipedia:%E9%A6%96%E9%A1%B5/$1",
+      "dest": "https://zh.wikipedia.org/wiki/Wiki/$1",
       "continue": true
     }
   ],
