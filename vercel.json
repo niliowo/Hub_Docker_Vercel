@@ -2,8 +2,8 @@
   "version": 2,
   "routes": [
     {
-      "src": "/(.*)",
-      "dest": "https://hub.docker.com",
+      "src": "/*",
+      "dest": "https://hub.docker.com/$1",
       "continue": true
     }
   ],
